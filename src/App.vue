@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Vue logo" src="./assets/logo.png">
+    <api-validator></api-validator>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ApiValidator from "@/components/ApiValidator";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ApiValidator
   }
 }
 </script>
